@@ -1,86 +1,114 @@
-<div align="center">
+# 🏙️ Smart City Citizen Platform
 
-# SmartCity Civic Platform
+## 📌 Overview
 
-Modern AI-enabled civic issue reporting and complaint management system for smart cities.
-
-</div>
+Smart City Citizen Platform is a web-based application that allows citizens to report civic issues such as potholes, garbage collection, water leakage, and streetlight failures. The platform enables authorities to manage complaints efficiently through an admin dashboard and real-time complaint tracking.
 
 ---
 
-# SmartCity Civic Platform
+## 🚀 Features
 
-A modern civic issue reporting platform that enables citizens to report:
-
-- Potholes
-- Garbage issues
-- Water leakages
-- Streetlight failures
-- Traffic problems
-- Public infrastructure damage
-
-while allowing authorities to:
-
-- Manage complaints
-- Update statuses
-- Monitor analytics
-- Track complaint resolution
-- View location-based reports
+- User Authentication
+- Report Civic Issues
+- Upload Images
+- Complaint Tracking
+- Admin Dashboard
+- AI-based Image Analysis
+- Real-time Status Updates
+- Responsive User Interface
 
 ---
 
-# Features
+## 🛠️ Technologies Used
 
-## Citizen Features
-
-- Citizen registration & login
-- Report civic complaints
-- Upload issue images
-- Location-based issue reporting
-- Interactive complaint map
-- Complaint history timeline
-- Live complaint tracking
-- Smart local AI assistant
-
----
-
-## Admin Features
-
-- Admin dashboard
-- Complaint management
-- Status updates
-- Analytics overview
-- Complaint activity timeline
-- Interactive city map
-- Smart admin AI analytics assistant
-
----
-
-# Tech Stack
-
-## Frontend
-
-- React 19
+### Frontend
+- React.js
 - TypeScript
+- HTML5
+- CSS3
 - Tailwind CSS
-- React Router
-- Framer Motion
-- Leaflet Maps
+- Vite
 
----
-
-## Backend
-
+### Backend
+- Node.js
 - Express.js
-- JWT Authentication
-- Multer File Uploads
-- Local JSON/Data Storage
+
+### Database
+- MySQL
+
+### Other Tools
+- Git
+- GitHub
 
 ---
 
-# Local AI Assistant
+## 📂 Project Structure
 
-This project uses:
+```
+Smart-City-Citizen-Platform/
+│
+├── src/
+├── uploads/
+├── package.json
+├── server.ts
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
 
-```txt
-Local Smart AI Assistant
+---
+
+## 💡 Modules
+
+- Citizen Registration & Login
+- Complaint Management
+- Complaint Status Tracking
+- Admin Panel
+- Image Upload
+- AI Image Verification
+- Dashboard
+
+---
+
+## 🎯 Objective
+
+To provide a centralized platform where citizens can report civic problems and government authorities can resolve them efficiently.
+
+---
+
+## 📷 Screenshots
+
+(Add project screenshots here)
+
+---
+
+## ▶️ Installation
+
+```bash
+git clone https://github.com/RONIT0511/Smart-City-Citizen-Platform.git
+
+cd Smart-City-Citizen-Platform
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 👨‍💻 Developed By
+
+**Ronit Vaity**
+
+MCA Student  
+Bharati Vidyapeeth Institute of Management and Information Technology (BVIMIT), Mumbai
+
+---
+
+## ⭐ Future Enhancements
+
+- Mobile Application
+- Push Notifications
+- AI Complaint Classification
+- GIS Map Integration
+- Analytics Dashboard
