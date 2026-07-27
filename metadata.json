@@ -1,0 +1,78 @@
+{
+  "name": "SmartCity Civic Platform",
+
+  "short_name": "SmartCity",
+
+  "description": "A modern AI-enabled civic issue reporting platform that allows citizens to report potholes, garbage issues, water leakages, traffic problems, and public infrastructure complaints while enabling authorities to monitor, manage, and resolve complaints efficiently in real time.",
+
+  "version": "2.0.0",
+
+  "theme_color": "#2563eb",
+
+  "background_color": "#f4f4f5",
+
+  "display": "standalone",
+
+  "orientation": "portrait",
+
+  "start_url": "/",
+
+  "scope": "/",
+
+  "lang": "en",
+
+  "categories": [
+    "government",
+    "productivity",
+    "utilities",
+    "maps"
+  ],
+
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+
+  "majorCapabilities": [
+    "citizen-authentication",
+    "admin-dashboard",
+    "complaint-reporting",
+    "complaint-tracking",
+    "real-time-status-updates",
+    "interactive-maps",
+    "location-based-reporting",
+    "image-upload",
+    "local-ai-assistant",
+    "admin-ai-analytics",
+    "complaint-history-timeline",
+    "analytics-dashboard",
+    "responsive-ui",
+    "role-based-access-control"
+  ],
+
+  "features": [
+    {
+      "title": "Citizen Reporting",
+      "description": "Citizens can report civic issues with location, images, and detailed descriptions."
+    },
+
+    {
+      "title": "Admin Management",
+      "description": "Authorities can manage complaints, update statuses, and monitor issue resolution."
+    },
+
+    {
+      "title": "Live Tracking",
+      "description": "Users can track complaint progress through detailed timelines and updates."
+    },
+
+    {
+      "title": "Interactive Maps",
+      "description": "Complaints are displayed on real-time city maps for better monitoring."
+    },
+
+    {
+      "title": "Smart AI Assistant",
+      "description": "Integrated local AI assistant helps citizens and administrators navigate the platform."
+    }
+  ]
+}
